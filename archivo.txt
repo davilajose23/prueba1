@@ -1,3 +1,5 @@
+
+
 var ctx = document.getElementById("treesByUser").getContext("2d");
 var data = {
     labels: ["1", "109", "217", "138", "132", "115", "107"],
@@ -17,3 +19,9 @@ var data = {
 };
 
 var myLineChart = new Chart(ctx).Line(data);
+
+
+
+bla bla bla
+
+sotra linea 
