@@ -1,0 +1,19 @@
+var ctx = document.getElementById("treesByUser").getContext("2d");
+var data = {
+    labels: ["1", "109", "217", "138", "132", "115", "107"],
+    datasets: [
+        {
+            label: "Arboles registrados por usuario",
+            fillColor: "rgba(220,220,220,0.3)",
+            strokeColor: "rgba(200,200,200,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [5286,14416, 2820, 2349, 1690, 1661, 1358]
+        }
+        
+    ]
+};
+
+var myLineChart = new Chart(ctx).Line(data);
